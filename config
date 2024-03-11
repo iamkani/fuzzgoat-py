@@ -1,0 +1,8 @@
+pathToExecutable: ./fuzz.py
+args: "@@"
+pathToInput: corpus
+lang: python
+fuzzer: atheris
+cores: 1
+numberOfMachines: 1
+target: fuzz.py
