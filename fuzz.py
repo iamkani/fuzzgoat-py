@@ -22,7 +22,7 @@ Two bugs found by this fuzzer include situations where ruamel.yaml tries
 inserting lists/dicts as *keys* in maps, which is invalid JSON and causes a
 ValueError to be raised. The worst consequences of this is likely
 denial-of-service for code that only expects a YAMLError to be raised; however,
-it may indicate more interesting parsing problems.
+it may indicate more interesting parsing problems. X
 """
 
 import atheris
